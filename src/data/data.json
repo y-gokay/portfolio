@@ -32,7 +32,7 @@
         "gitLink": "https://github.com/y-gokay/Food-Order-Web-Site",
         "description": "React ile dinamik bir tarzda yapılmış olup Axios ile post işlemi yapılmıştır.Data üzerinden veriler çekilmiş ve kullanılmıştır.Componentslarla çalışılmıştır. Cypress testi yapılmıştır.",
         "skill": ["html", "css", "responsive design", "figma"],
-        "photoUrl": "./src/assets/pizza.png"
+        "photoUrl": "./public/pizza.png"
       },
       {
         "name": "Portfolyo Projesi",
@@ -48,7 +48,7 @@
           "axios",
           "figma"
         ],
-        "photoUrl": "./src/assets/portfolyö.png"
+        "photoUrl": "./public/portfolyö.png"
       },
       {
         "name": "Yemek Tarifi Uygulaması",
@@ -56,7 +56,7 @@
         "gitLink": "https://github.com/y-gokay/mobile-restorant-menu-app",
         "description": "React Native ile dinamik bir şekilde yapımıştır. Data üzerinden veriler çekilmiş ve kullanılmıştır. Componentslarla çalışılmıştır. ",
         "skill": ["javascript", "css", "react native", "android studio"],
-        "photoUrl": "./src/assets/mobile.png"
+        "photoUrl": "./public/mobile.png"
       }
     ],
     "show": "GitHub'da görüntüle",
@@ -107,7 +107,7 @@
         "gitLink": "",
         "description": "project1",
         "skill": ["html", "css", "responsive design", "figma"],
-        "photoUrl": "./src/assets/pizza.png"
+        "photoUrl": "./public/pizza.png"
       },
       {
         "name": "Portfolio Project",
@@ -123,7 +123,7 @@
           "axios",
           "figma"
         ],
-        "photoUrl": "./src/assets/portfolyö.png"
+        "photoUrl": "./public/portfolyö.png"
       },
       {
         "name": "Food Recipe App",
@@ -131,7 +131,7 @@
         "gitLink": "https://github.com/y-gokay/mobile-restorant-menu-app",
         "description": "project3",
         "skill": ["javascript", "css", "react native", "android studio"],
-        "photoUrl": "./src/assets/mobile.png"
+        "photoUrl": "./public/mobile.png"
       }
     ],
     "show": "View on GitHub",
