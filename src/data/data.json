@@ -1,0 +1,216 @@
+{
+  "tr-TR": {
+    "greet": "Selamlar ! ✌️",
+    "article": "Ben Yasin Gökay Kökdemir. Kariyerimi Front-End ve Mobil uygulamaları geliştirmek üzere yola çıkmış yeni bir mühendisim.",
+    "communication": "Şuan Freelance olarak çalışmaktayım, Yukarıdaki profillerimden benimle iletişime geçebilirsiniz.",
+    "linkedin": "https://www.linkedin.com/in/gkyysn",
+    "github": "https://github.com/y-gokay",
+    "email": "E-Posta",
+    "skill": "Yeteneklerim",
+    "profileHeader": "Profil",
+    "profile": "Kişisel Bilgilerim",
+    "info": [
+      { "name": "Doğum Tarihi", "value": "12.05.1998" },
+      { "name": "İkamet Yeri", "value": "Samsun,Türkiye" },
+      {
+        "name": "Eğitim Durumu",
+        "value": "Düzce Üniversitesi. Bilgisayar Mühendisliği, Lisans, 2023"
+      },
+      {
+        "name": "Tercih Edilen Roller",
+        "value": "Front-End Developer, Mobile Developer, Game Developer"
+      }
+    ],
+    "aboutTitle": "Hakkımda",
+    "about": "Düzce Üniversitesi Bilgisayar Mühendisliğinden mezun oldum. Yazılıma ilgim  küçük yaşlarda teknoloji dergilerinin yazılım sayfaları ile başladı. İlk uygulamamı dergilerin ücretsiz olarak verdiği yazılımlar ve eğitimler ile geliştirdim. Bu süreçte yazılımın benim için bir tutku olduğunu fark ettim ve bu alanda kendimi geliştirmeye karar verdim. Kendimi sürekli geliştirmeye ve yeni teknolojileri öğrenmeye açık biriyim. ",
+    "about2": "Web geliştirme, Mobil uygulama geliştirme, Oyun geliştirme, ERP yazılımları ile ilgileniyorum. Yabancı dil olarak iyi seviyede İngilizce ve başlangıç seviyesinde Almanca biliyorum. ",
+    "projectHeader": "Projelerim",
+    "projects": [
+      {
+        "name": "Pizza Projesi",
+        "vercelLink": "https://food-order-web-site.vercel.app/",
+        "gitLink": "https://github.com/y-gokay/Food-Order-Web-Site",
+        "description": "React ile dinamik bir tarzda yapılmış olup Axios ile post işlemi yapılmıştır.Data üzerinden veriler çekilmiş ve kullanılmıştır.Componentslarla çalışılmıştır. Cypress testi yapılmıştır.",
+        "skill": ["html", "css", "responsive design", "figma"],
+        "photoUrl": "/src/assets/pizza.png"
+      },
+      {
+        "name": "Portfolyo Projesi",
+        "vercelLink": "",
+        "gitLink": "https://github.com/y-gokay/portfolio",
+        "description": "React ile dinamik bir şekilde yapılmıştır. Axios ile post işlemi yapılmış. Data üzerinden veriler çekilmiş ve kullanılmıştır. Componentslarla çalışılmıştır. Figma ile tasarlanmıştır.",
+        "skill": [
+          "html",
+          "javascript",
+          "tailwind css",
+          "react",
+          "hooks",
+          "axios",
+          "figma"
+        ],
+        "photoUrl": "/src/assets/portfolyö.png"
+      },
+      {
+        "name": "Yemek Tarifi Uygulaması",
+        "vercelLink": "",
+        "gitLink": "https://github.com/y-gokay/mobile-restorant-menu-app",
+        "description": "React Native ile dinamik bir şekilde yapımıştır. Data üzerinden veriler çekilmiş ve kullanılmıştır. Componentslarla çalışılmıştır. ",
+        "skill": ["javascript", "css", "react native", "android studio"],
+        "photoUrl": "/src/assets/mobile.png"
+      }
+    ],
+    "show": "GitHub'da görüntüle",
+    "application": "Uygulamaya git ",
+    "contact": [
+      {
+        "text": "Hadi birlikte bir sonraki ürününüz üzerinde çalışalım.",
+        "email": "example@example.com",
+        "github": "https://github.com/y-gokay",
+        "linkedin": "https://www.linkedin.com/in/gkyysn/",
+        "personalBlog": "https://exampleblog.com"
+      }
+    ],
+    "light": "Açık Tema",
+    "dark": "Koyu Tema"
+  },
+  "en-EN": {
+    "greet": "Hello ! ✌️",
+    "article": "I am Yasin Gökay Kökdemir. I am a new engineer who set out to develop my career in Front-End and Mobile applications.",
+    "communication": "I am currently working as a Freelancer, You can contact me from the profiles above.",
+    "linkedin": "https://www.linkedin.com/in/gkyysn",
+    "github": "https://github.com/y-gokay",
+    "email": "E-Mail",
+    "skill": "My Skills",
+    "profileHeader": "Profile",
+    "profile": "Personal Information",
+    "info": [
+      { "name": "Birthday", "value": "12.05.1998" },
+      { "name": "Location", "value": "Samsun, Turkey" },
+      {
+        "name": "Education",
+        "value": "Düzce University, Computer Engineering, Bachelor's, 2023"
+      },
+      {
+        "name": "Preferred Roles",
+        "value": "Front-End Developer, Mobile Developer, Game Developer"
+      }
+    ],
+    "aboutTitle": "About Me",
+    "about": "I graduated from Düzce University Computer Engineering. My interest in software started at a young age with the software pages of technology magazines. I developed my first application with the software and trainings provided by the magazines for free. During this process, I realized that software was a passion for me and decided to develop myself in this field. I am someone who is open to constantly improving myself and learning new technologies.",
+    "about2": "I am interested in web development, mobile application development, game development, ERP software. I know English at a good level and German at a beginner level as a foreign language.",
+    "projectHeader": "Projects",
+
+    "projects": [
+      {
+        "name": "Pizza Project",
+        "vercelLink": "",
+        "gitLink": "",
+        "description": "project1",
+        "skill": ["html", "css", "responsive design", "figma"],
+        "photoUrl": "/src/assets/pizza.png"
+      },
+      {
+        "name": "Portfolio Project",
+        "vercelLink": "",
+        "gitLink": "",
+        "description": "project2",
+        "skill": [
+          "html",
+          "javascript",
+          "tailwind css",
+          "react",
+          "hooks",
+          "axios",
+          "figma"
+        ],
+        "photoUrl": "/src/assets/portfolyö.png"
+      },
+      {
+        "name": "Food Recipe App",
+        "vercelLink": "",
+        "gitLink": "https://github.com/y-gokay/mobile-restorant-menu-app",
+        "description": "project3",
+        "skill": ["javascript", "css", "react native", "android studio"],
+        "photoUrl": "/src/assets/mobile.png"
+      }
+    ],
+    "show": "View on GitHub",
+    "application": "Go to Application ",
+    "contact": [
+      {
+        "text": "Let’s work together on your next product.",
+        "email": "example@example.com",
+        "github": "https://github.com/y-gokay",
+        "linkedin": "https://www.linkedin.com/in/gkyysn/",
+        "personalBlog": "https://exampleblog.com"
+      }
+    ],
+    "light": "Light Theme",
+    "dark": "Dark Theme"
+  },
+  "variables": {
+    "colors": ["#DDEEFE", "#D9F6F1", "#f7c1d5", "#f7d9c1", "#f7f7c1"],
+    "darkColors": ["#2D3235", "#495351", "#3D2C2C", "#2C3D3D", "#3D3D2C"],
+
+    "skills": [
+      {
+        "name": "JavaScript",
+        "url": "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
+      },
+      {
+        "name": "HTML",
+        "url": "https://cdn.worldvectorlogo.com/logos/html-1.svg"
+      },
+      {
+        "name": "CSS",
+        "url": "https://cdn.worldvectorlogo.com/logos/css-3.svg"
+      },
+      {
+        "name": "Node.js",
+        "url": "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
+      },
+      {
+        "name": "React",
+        "url": "https://cdn.worldvectorlogo.com/logos/react-1.svg"
+      },
+
+      {
+        "name": "Redux",
+        "url": "https://cdn.worldvectorlogo.com/logos/redux.svg"
+      },
+      {
+        "name": "React Native",
+        "url": "https://cdn.worldvectorlogo.com/logos/react-native-1.svg"
+      },
+
+      {
+        "name": "Cypress",
+        "url": "https://cdn.worldvectorlogo.com/logos/cypress-1.svg"
+      },
+      {
+        "name": "Fluter",
+        "url": "https://cdn.worldvectorlogo.com/logos/flutter.svg"
+      },
+      {
+        "name": "Dart",
+        "url": "https://cdn.worldvectorlogo.com/logos/dart.svg"
+      },
+      {
+        "name": "Tailwind CSS",
+        "url": "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg"
+      },
+      {
+        "name": "Bootstrap",
+        "url": "https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg"
+      },
+      {
+        "name": "Figma",
+        "url": "https://cdn.worldvectorlogo.com/logos/figma-icon-one-color.svg"
+      },
+      {
+        "name": "Photoshop",
+        "url": "https://cdn.worldvectorlogo.com/logos/adobe-photoshop-2.svg"
+      }
+    ]
+  }
+}
