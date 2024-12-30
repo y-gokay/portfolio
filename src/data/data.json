@@ -103,9 +103,9 @@
     "projects": [
       {
         "name": "Pizza Project",
-        "vercelLink": "",
-        "gitLink": "",
-        "description": "project1",
+        "vercelLink": "https://food-order-web-site.vercel.app/",
+        "gitLink": "https://github.com/y-gokay/Food-Order-Web-Site",
+        "description": "Dynamic maintenance was done with React and post processing was done with Axios. Data was used and given with the components. Cypress test was carried out.",
         "skill": ["html", "css", "responsive design", "figma"],
         "photoUrl": "/pizza.png"
       },
@@ -113,7 +113,7 @@
         "name": "Portfolio Project",
         "vercelLink": "",
         "gitLink": "",
-        "description": "project2",
+        "description": "It was made dynamically with React. Post processing was done with Axios. Data was pulled from Data and used. It was worked with components. It was designed with Figma.",
         "skill": [
           "html",
           "javascript",
@@ -129,7 +129,7 @@
         "name": "Food Recipe App",
         "vercelLink": "",
         "gitLink": "https://github.com/y-gokay/mobile-restorant-menu-app",
-        "description": "project3",
+        "description": "It was built dynamically with React Native. Data was retrieved and used. It was worked with components.",
         "skill": ["javascript", "css", "react native", "android studio"],
         "photoUrl": "/mobile.png"
       }
