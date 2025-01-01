@@ -7,6 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 export const DataContext = createContext();
 
 export const DataProvider = ({ children }) => {
+  //kaydırma animasyonunu gerçekleştirir sona geldiğinde ise başa döner
   const startAutoScroll = (scrollContainerRef) => {
     const scrollContainer = scrollContainerRef.current;
     let scrollAmount = 0;
@@ -31,7 +32,7 @@ export const DataProvider = ({ children }) => {
 
     return () => clearInterval(intervalId);
   };
-
+  //koyu modu açıp kapatır
   const [darkMode, setDarkMode] = useState(() => {
     const storedTheme = localStorage.getItem("darkMode");
     return storedTheme ? JSON.parse(storedTheme) : false;
@@ -46,7 +47,7 @@ export const DataProvider = ({ children }) => {
   useEffect(() => {
     document.body.className = darkMode ? "dark" : "light";
   }, [darkMode]);
-
+  //dil seçeneğini değiştirir
   const [language, setLanguage] = useState(() => {
     const storedLanguage = localStorage.getItem("language");
     if (storedLanguage) return storedLanguage;
@@ -66,7 +67,7 @@ export const DataProvider = ({ children }) => {
       localStorage.setItem("language", language);
     }
   }, [language]);
-
+  //API'ye veri gönderir
   useEffect(() => {
     axios
       .post("https://reqres.in/api/workintech", data)
@@ -95,7 +96,7 @@ export const DataProvider = ({ children }) => {
         });
       });
   }, []);
-
+  //verileri return eder
   return (
     <DataContext.Provider
       value={{
