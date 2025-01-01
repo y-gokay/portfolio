@@ -87,7 +87,7 @@ const hero = () => {
                 <FontAwesomeIcon icon={faGithub} />
               </a>
               <a
-                href={data.email}
+                href={`mailto:${data.email}`}
                 target="_blank"
                 className="max-w-10 text-3xl hover:text-[#EA2678]"
               >
