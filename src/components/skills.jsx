@@ -7,7 +7,7 @@ const Skills = () => {
   const scrollContainerRef = useAutoScroll(startAutoScroll);
 
   return (
-    <div className="pb-10 relative px-10 lg:px-0 dark:bg-[#484148a9]">
+    <div className="pb-10 relative px-10 lg:px-0 dark:bg-[#484148c9]">
       <div className="flex flex-col mx-auto mt-10">
         <div className="w-[11.3125rem] h-[3.0625rem] absolute top-[0] left-[-4.375rem] gap-0 rounded-[1.84375rem] z-10 bg-[#525252] opacity-80"></div>
         <div className="text-center text-4xl mb-10 z-50 dark:text-white font-bold">
