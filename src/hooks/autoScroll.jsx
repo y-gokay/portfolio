@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-
+//kaydırma animasyonunu gerçekleştiren hook
 const useAutoScroll = (startAutoScroll) => {
   const scrollContainerRef = useRef(null);
 
