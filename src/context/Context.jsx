@@ -73,7 +73,7 @@ export const DataProvider = ({ children }) => {
       .then(() => {
         toast.success("Bilgiler başarıyla API'a iletildi 👍", {
           position: "top-left",
-          autoClose: 5000,
+          autoClose: 1000,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
@@ -85,7 +85,7 @@ export const DataProvider = ({ children }) => {
       .catch((err) => {
         toast.error("Bir hata oluştu:", err, {
           position: "top-left",
-          autoClose: 5000,
+          autoClose: 1000,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
