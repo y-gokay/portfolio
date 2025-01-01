@@ -6,7 +6,7 @@ export const footer = () => {
   const contact = data.contact;
 
   return (
-    <div className="py-20 bg-white-100 flex items-center justify-center dark:bg-[#484148a9]">
+    <div className="py-20 bg-white-100 flex items-center justify-center dark:bg-[#484148c9]">
       <div className="flex flex-col md:flex-row items-center gap-8">
         <div className="text-center md:text-left ">
           {contact.map((item, index) => (
@@ -39,7 +39,7 @@ export const footer = () => {
                     href={item.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[#1769FF] underline-offset-0 dark:hover:text-white hover:text-[#EA2678]"
+                    className="text-[#1769FF] underline-offset-0 dark:hover:text-white hover:text-[#EA2678] dark:text-[#82BBFF]"
                   >
                     GitHub
                   </a>
@@ -51,7 +51,7 @@ export const footer = () => {
                     href={item.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[#0077B5] underline-offset-0 dark:hover:text-white hover:text-[#EA2678]"
+                    className="text-[#0077B5] underline-offset-0 dark:hover:text-white hover:text-[#EA2678] dark:text-[#419CCB]"
                   >
                     LinkedIn
                   </a>
@@ -63,7 +63,7 @@ export const footer = () => {
                     href={item.personalBlog}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[#AF0C48] underline-offset-0 dark:hover:text-white hover:text-[#EA2678]"
+                    className="text-[#AF0C48] underline-offset-0 dark:hover:text-white hover:text-[#EA2678] "
                   >
                     Personal Blog
                   </a>
