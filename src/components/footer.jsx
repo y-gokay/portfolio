@@ -24,7 +24,7 @@ export const footer = () => {
               {item.email && (
                 <p>
                   <a
-                    href={item.email}
+                    href={`mailto:${item.email}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-black underline-offset-0 dark:hover:text-white hover:text-[#EA2678]"
