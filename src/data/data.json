@@ -5,7 +5,7 @@
     "communication": "Şuan Freelance olarak çalışmaktayım, Yukarıdaki profillerimden benimle iletişime geçebilirsiniz.",
     "linkedin": "https://www.linkedin.com/in/gkyysn",
     "github": "https://github.com/y-gokay",
-    "email": "E-Posta",
+    "email": "ygkdemr@hotmail.com",
     "skill": "Yeteneklerim",
     "profileHeader": "Profil",
     "profile": "Kişisel Bilgilerim",
@@ -71,10 +71,10 @@
     "contact": [
       {
         "text": "Hadi birlikte bir sonraki ürününüz üzerinde çalışalım.",
-        "email": "example@example.com",
+        "email": "ygkdemr@hotmail.com",
         "github": "https://github.com/y-gokay",
         "linkedin": "https://www.linkedin.com/in/gkyysn/",
-        "personalBlog": "https://exampleblog.com"
+        "personalBlog": "/"
       }
     ],
     "light": "Açık Tema",
@@ -86,7 +86,7 @@
     "communication": "I am currently working as a Freelancer, You can contact me from the profiles above.",
     "linkedin": "https://www.linkedin.com/in/gkyysn",
     "github": "https://github.com/y-gokay",
-    "email": "E-Mail",
+    "email": "ygkdemr@hotmail.com",
     "skill": "My Skills",
     "profileHeader": "Profile",
     "profile": "Personal Information",
@@ -153,10 +153,10 @@
     "contact": [
       {
         "text": "Let’s work together on your next product.",
-        "email": "example@example.com",
+        "email": "ygkdemr@hotmail.com",
         "github": "https://github.com/y-gokay",
         "linkedin": "https://www.linkedin.com/in/gkyysn/",
-        "personalBlog": "https://exampleblog.com"
+        "personalBlog": "/"
       }
     ],
     "light": "Light Theme",
