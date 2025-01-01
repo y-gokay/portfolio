@@ -5,7 +5,7 @@ function projects() {
   const { data, variables, darkMode } = useContext(DataContext);
 
   return (
-    <div className="pb-20 flex items-center justify-center dark:bg-[#484148a9]">
+    <div className="pb-20 flex items-center justify-center dark:bg-[#484148c9]">
       <div className="flex flex-col container items-center">
         <div className="mx-auto mt-10">
           <h2 className="text-4xl mb-20 text-center dark:text-white">
