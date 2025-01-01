@@ -31,7 +31,14 @@
         "vercelLink": "https://food-order-web-site.vercel.app/",
         "gitLink": "https://github.com/y-gokay/Food-Order-Web-Site",
         "description": "React ile dinamik bir tarzda yapılmış olup Axios ile post işlemi yapılmıştır.Data üzerinden veriler çekilmiş ve kullanılmıştır.Componentslarla çalışılmıştır. Cypress testi yapılmıştır.",
-        "skill": ["html", "css", "responsive design", "figma"],
+        "skill": [
+          "html",
+          "javascript",
+          "css",
+          "react",
+          "responsive tasarım",
+          "figma"
+        ],
         "photoUrl": "/pizza.png"
       },
       {
@@ -46,7 +53,7 @@
           "react",
           "hooks",
           "axios",
-          "figma"
+          "responsive tasarım"
         ],
         "photoUrl": "/portfolyö.png"
       },
@@ -106,13 +113,20 @@
         "vercelLink": "https://food-order-web-site.vercel.app/",
         "gitLink": "https://github.com/y-gokay/Food-Order-Web-Site",
         "description": "Dynamic maintenance was done with React and post processing was done with Axios. Data was used and given with the components. Cypress test was carried out.",
-        "skill": ["html", "css", "responsive design", "figma"],
+        "skill": [
+          "html",
+          "javascript",
+          "css",
+          "react",
+          "responsive design",
+          "figma"
+        ],
         "photoUrl": "/pizza.png"
       },
       {
         "name": "Portfolio Project",
         "vercelLink": "",
-        "gitLink": "",
+        "gitLink": "https://github.com/y-gokay/portfolio",
         "description": "It was made dynamically with React. Post processing was done with Axios. Data was pulled from Data and used. It was worked with components. It was designed with Figma.",
         "skill": [
           "html",
@@ -121,7 +135,7 @@
           "react",
           "hooks",
           "axios",
-          "figma"
+          "responsive design"
         ],
         "photoUrl": "/portfolyö.png"
       },
