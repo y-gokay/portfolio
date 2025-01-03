@@ -7,6 +7,28 @@ import "react-toastify/dist/ReactToastify.css";
 export const DataContext = createContext();
 
 export const DataProvider = ({ children }) => {
+  const [showScrollToTopButton, setShowScrollToTopButton] = useState(false);
+  //sayfanın başına dönme işlemini gerçekleştirir
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+  //sayfa kaydırıldıkça işlemi gerçekleştiren butonun görünürlüğünü belirler ve aksiyonu başlatır
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 750) {
+        setShowScrollToTopButton(true);
+      } else {
+        setShowScrollToTopButton(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   //kaydırma animasyonunu gerçekleştirir sona geldiğinde ise başa döner
   const startAutoScroll = (scrollContainerRef) => {
     const scrollContainer = scrollContainerRef.current;
@@ -100,6 +122,8 @@ export const DataProvider = ({ children }) => {
   return (
     <DataContext.Provider
       value={{
+        scrollToTop,
+        showScrollToTopButton,
         startAutoScroll,
         darkMode,
         toggleTheme,
