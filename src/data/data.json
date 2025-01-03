@@ -30,7 +30,7 @@
         "name": "Pizza Projesi",
         "vercelLink": "https://food-order-web-site.vercel.app/",
         "gitLink": "https://github.com/y-gokay/Food-Order-Web-Site",
-        "description": "React ile dinamik bir tarzda yapılmış olup Axios ile post işlemi yapılmıştır.Data üzerinden veriler çekilmiş ve kullanılmıştır.Componentslarla çalışılmıştır. Cypress testi yapılmıştır.",
+        "description": "React ile dinamik bir tarzda yapılmış olup Axios ile post işlemi yapılmıştır.Data üzerinden veriler çekilmiş ve kullanılmıştır. Componentslarla çalışılmıştır. Cypress testi yapılmıştır.",
         "skill": [
           "html",
           "javascript",
@@ -52,8 +52,7 @@
           "tailwind css",
           "react",
           "hooks",
-          "axios",
-          "responsive tasarım"
+          "axios"
         ],
         "photoUrl": "/portfolyö.png"
       },
@@ -61,7 +60,7 @@
         "name": "Yemek Tarifi Uygulaması",
         "vercelLink": "",
         "gitLink": "https://github.com/y-gokay/mobile-restorant-menu-app",
-        "description": "React Native ile dinamik bir şekilde yapımıştır. Data üzerinden veriler çekilmiş ve kullanılmıştır. Componentslarla çalışılmıştır. ",
+        "description": "React Native ile dinamik bir şekilde yapımıştır. Data üzerinden veriler çekilmiş ve kullanılmıştır. Componentslarla çalışılmıştır. Android Studio ile build edilmiştir. ",
         "skill": ["javascript", "css", "react native", "android studio"],
         "photoUrl": "/mobile.png"
       }
@@ -112,7 +111,7 @@
         "name": "Pizza Project",
         "vercelLink": "https://food-order-web-site.vercel.app/",
         "gitLink": "https://github.com/y-gokay/Food-Order-Web-Site",
-        "description": "Dynamic maintenance was done with React and post processing was done with Axios. Data was used and given with the components. Cypress test was carried out.",
+        "description": "Dynamic maintenance was done with React and post processing was done with Axios.Data was used and given with the components.Cypress test was carried out.",
         "skill": [
           "html",
           "javascript",
@@ -125,7 +124,7 @@
       },
       {
         "name": "Portfolio Project",
-        "vercelLink": "",
+        "vercelLink": "/",
         "gitLink": "https://github.com/y-gokay/portfolio",
         "description": "It was made dynamically with React. Post processing was done with Axios. Data was pulled from Data and used. It was worked with components. It was designed with Figma.",
         "skill": [
@@ -143,7 +142,7 @@
         "name": "Food Recipe App",
         "vercelLink": "",
         "gitLink": "https://github.com/y-gokay/mobile-restorant-menu-app",
-        "description": "It was built dynamically with React Native. Data was retrieved and used. It was worked with components.",
+        "description": "It was built dynamically with React Native. Data was retrieved and used. It was worked with components. It was built with Android Studio  ",
         "skill": ["javascript", "css", "react native", "android studio"],
         "photoUrl": "/mobile.png"
       }
