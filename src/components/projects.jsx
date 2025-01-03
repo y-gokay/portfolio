@@ -16,7 +16,7 @@ function projects() {
           {data.projects.map((project, index) => (
             <div
               key={index}
-              className="h-[670px] relative flex flex-col p-10 basis-[30%] max-w-[3500px] rounded-lg shadow-md"
+              className=" h-[700px] sm:h-[670px] relative flex flex-col p-10 basis-[30%] max-w-[3500px] rounded-lg shadow-md"
               style={{
                 backgroundColor: darkMode
                   ? variables.darkColors[index]
@@ -47,7 +47,7 @@ function projects() {
                   ))}
                 </div>
               </div>
-              <div className="flex mt-5 justify-between ">
+              <div className="flex mt-5 justify-between gap-2.5">
                 <div>
                   <a
                     href={project.gitLink}
