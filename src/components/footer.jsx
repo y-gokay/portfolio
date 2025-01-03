@@ -75,6 +75,7 @@ export const footer = () => {
       </div>
       {showScrollToTopButton && (
         <button
+          data-cy="top-button"
           onClick={scrollToTop}
           className="fixed bottom-10 w-20 right-10 p-3 bg-[#EA2678] text-white rounded-full shadow-lg hover:bg-white hover:text-[#EA2678] dark:bg-[#2A262B] dark:text-white dark:hover:bg-white dark:hover:text-[#2A262B] transition-all"
         >

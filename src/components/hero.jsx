@@ -10,13 +10,19 @@ const hero = () => {
   const { darkMode, toggleTheme } = useContext(DataContext);
 
   return (
-    <div className="pt-5 relative pb-20 bg-gray-100 px-9 lg:px-0 dark:bg-[#2A262B]">
+    <div
+      className="pt-5 relative pb-20 bg-gray-100 px-9 lg:px-0 dark:bg-[#2A262B] "
+      data-cy="theme"
+    >
       <div class="w-[13rem] bg-[#EA2678] h-[3.6rem] absolute bottom-[10rem] sm:bottom-[7rem]  right-[-5rem] rounded-[1.8rem] opacity-90"></div>
       <div className="w-[111px] h-[111px] top-[-4rem] left-[26rem] absolute bg-gray-300 rounded-full"></div>
       <div className="container relative justify-self-center">
         <div className="flex justify-end text-neutral-500 font-bold tracking-[0.1rem] text-base">
           <div className="flex gap-10 items-center">
-            <label className="inline-flex items-center cursor-pointer">
+            <label
+              className="inline-flex items-center cursor-pointer"
+              data-cy="theme-button"
+            >
               <input
                 type="checkbox"
                 value=""
@@ -40,21 +46,23 @@ const hero = () => {
 
             <div>
               {language === "en-EN" ? (
-                <span>
+                <span data-cy="turkish">
                   <span
                     onClick={() => toggleLanguage("tr-TR")}
                     className="text-[#EA2678] cursor-pointer font hover:underline"
+                    data-cy="turkish-button"
                   >
                     TÜRKÇE
                   </span>
                   <span>'YE GEÇ</span>
                 </span>
               ) : (
-                <span>
+                <span data-cy="english">
                   <span>SWITCH TO </span>
                   <span
                     onClick={() => toggleLanguage("en-EN")}
                     className="text-[#EA2678] cursor-pointer font-bold hover:underline"
+                    data-cy="english-button"
                   >
                     ENGLISH
                   </span>

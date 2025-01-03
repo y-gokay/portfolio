@@ -1,10 +1,11 @@
 import { useContext } from "react";
 import { DataContext } from "../context/Context";
-import useAutoScroll from "../hooks/autoScroll";
+import Marquee from "react-fast-marquee";
+//import useAutoScroll from "../hooks/autoScroll";
 
 const Skills = () => {
   const { variables, data, startAutoScroll } = useContext(DataContext);
-  const scrollContainerRef = useAutoScroll(startAutoScroll);
+  //const scrollContainerRef = useAutoScroll(startAutoScroll);
 
   return (
     <div className="pb-10 relative px-10 lg:px-0 dark:bg-[#484148c9]">
@@ -14,13 +15,10 @@ const Skills = () => {
           <h2 className="">{data.skill}</h2>
         </div>
         <div className="relative">
-          <div
-            ref={scrollContainerRef}
-            className=" flex overflow-x-auto gap-6 px-4 custom-scrollbar"
-          >
+          <Marquee gradient={false} speed={150} pauseOnHover={true}>
             {variables.skills.map((skill, index) => (
               <div
-                className="flex-none rounded-lg w-36 p-4 shadow-md bg-white dark:bg-[#2A262B] "
+                className="flex-none rounded-lg w-36 p-4 shadow-md bg-white dark:bg-[#2A262B] mx-4"
                 key={index}
               >
                 <img
@@ -33,7 +31,7 @@ const Skills = () => {
                 </p>
               </div>
             ))}
-          </div>
+          </Marquee>
         </div>
       </div>
     </div>

@@ -28,7 +28,7 @@ export const DataProvider = ({ children }) => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
+  /*
   //kaydırma animasyonunu gerçekleştirir sona geldiğinde ise başa döner
   const startAutoScroll = (scrollContainerRef) => {
     const scrollContainer = scrollContainerRef.current;
@@ -54,6 +54,8 @@ export const DataProvider = ({ children }) => {
 
     return () => clearInterval(intervalId);
   };
+  
+*/
   //koyu modu açıp kapatır
   const [darkMode, setDarkMode] = useState(() => {
     const storedTheme = localStorage.getItem("darkMode");
@@ -124,7 +126,7 @@ export const DataProvider = ({ children }) => {
       value={{
         scrollToTop,
         showScrollToTopButton,
-        startAutoScroll,
+        //startAutoScroll,
         darkMode,
         toggleTheme,
         language,

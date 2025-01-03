@@ -1,3 +1,4 @@
+/*
 import { useEffect, useRef } from "react";
 //kaydırma animasyonunu gerçekleştiren hook
 const useAutoScroll = (startAutoScroll) => {
@@ -14,3 +15,4 @@ const useAutoScroll = (startAutoScroll) => {
 };
 
 export default useAutoScroll;
+*/
