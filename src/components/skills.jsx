@@ -16,7 +16,7 @@ const Skills = () => {
         </div>
         <div className="relative ">
           <Marquee
-            className="h-[150px]"
+            className="h-[200px]"
             gradient={false}
             speed={150}
             pauseOnHover={true}
