@@ -14,11 +14,16 @@ const Skills = () => {
         <div className="text-center text-4xl mb-10 z-50 dark:text-white font-bold">
           <h2 className="">{data.skill}</h2>
         </div>
-        <div className="relative">
-          <Marquee gradient={false} speed={150} pauseOnHover={true}>
+        <div className="relative ">
+          <Marquee
+            className="h-[150px]"
+            gradient={false}
+            speed={150}
+            pauseOnHover={true}
+          >
             {variables.skills.map((skill, index) => (
               <div
-                className="flex-none rounded-lg w-36 p-4 shadow-md bg-white dark:bg-[#2A262B] mx-4"
+                className="flex-none rounded-lg w-36 p-4 shadow-md bg-white dark:bg-[#2A262B] mx-4  hover:cursor-pointer hover:transition-transform duration-500 ease-in-out hover:scale-110 hover:bg-slate-50"
                 key={index}
               >
                 <img
