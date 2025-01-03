@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { DataContext } from "../context/Context";
+import { DataContext } from "../context/Context.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import Profile from "../assets/profile.jpeg";
@@ -11,7 +11,7 @@ const hero = () => {
 
   return (
     <div className="pt-5 relative pb-20 bg-gray-100 px-9 lg:px-0 dark:bg-[#2A262B]">
-      <div className="w-[13rem] bg-[#EA2678] h-[3.6rem] absolute bottom-[5rem] right-[-5rem] rounded-[1.8rem] opacity-90 "></div>
+      <div class="w-[13rem] bg-[#EA2678] h-[3.6rem] absolute bottom-[10rem] sm:bottom-[7rem]  right-[-5rem] rounded-[1.8rem] opacity-90"></div>
       <div className="w-[111px] h-[111px] top-[-4rem] left-[26rem] absolute bg-gray-300 rounded-full"></div>
       <div className="container relative justify-self-center">
         <div className="flex justify-end text-neutral-500 font-bold tracking-[0.1rem] text-base">
@@ -102,7 +102,7 @@ const hero = () => {
           </div>
         </div>
 
-        <div className="w-[120px] h-[120px] border-[20px] border-gray-300 dark:border-[#525252] rounded-full absolute lg:right-[14rem] lg:bottom-[-8.8rem] sm:bottom-[-8rem] sm:right-[4rem] opacity-50"></div>
+        <div className="w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] md:w-[120px] md:h-[120px] border-[10px] sm:border-[15px] md:border-[20px] border-gray-300 dark:border-[#525252] rounded-full absolute right-[20px] sm:right-[30px] bottom-[-7.5rem] sm:bottom-[-7rem] md:bottom-[-8rem] lg:right-[14rem] lg:bottom-[-9rem] opacity-50"></div>
       </div>
     </div>
   );
